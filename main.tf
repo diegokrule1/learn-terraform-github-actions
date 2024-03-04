@@ -8,6 +8,7 @@ terraform {
 
     workspaces {
       name = "learn-terraform-github-actions"
+      tags = ["some-tag"]
     }
   }
 
